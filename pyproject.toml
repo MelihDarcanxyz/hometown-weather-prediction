@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hometown-weather-prediction"
+version = "0.1.0"
+description = ""
+authors = ["Melih DARCAN <57872471+MelihDarcanxyz@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+statsmodels = "^0.14.1"
+xgboost = "^2.0.3"
+scikit-learn = "^1.4.1"
+matplotlib = "^3.8.3"
+ipykernel = "^6.29.3"
+seaborn = "^0.13.2"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.29.3"
+shed = "^2024.1.1"
+nbconvert = "^7.16.1"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
